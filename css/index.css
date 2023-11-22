@@ -25,8 +25,21 @@
     display: grid;
     grid-template-columns: 90px 1fr;
     gap: 5px;
+    margin: 10px 10px;
 }
 .left-relevant-info {
     border: 1px solid;
+}
+.info-container {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.text > p {
+    
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    text-align: justify;
 }
 
