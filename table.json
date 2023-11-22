@@ -1,0 +1,7 @@
+{
+    "Networks": ["802.11a", "802.11b", "802.11g", "802.11n", "802.11ac", "802.11ax"],
+    "Frequencies": ["5 GHz", "2.4 GHz", "2.4 GHz", "2.4 GHz and 5 GHz", "5 GHz", "2.4 GHz and 5 GHz"],
+    "Maximum MIMO Stream": ["Not", "Not", "Not", "4 x MIMO", "8 x DL MU-MIMO", "8 x DL and UL MU-MIMO"],
+    "Maximun Theoretical Throughput (Per Stream)": ["54 Mbit/s", "11 Mbit/s", "54 Mbit/s", "150 Mbit/s", "867 Mbit/s" , "1201 Mbit/s"],
+    "Maximun Theoretical Throughput (TOTAL)": ["54 Mbit/s", "11 Mbit/s", "54 Mbit/s", "600 Mbit/s", "6.9 Gbit/s" , "9.6 Gbit/s"]
+  }

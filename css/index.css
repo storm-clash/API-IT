@@ -1,0 +1,32 @@
+.grid {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.grid-card {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.grid-two-layers {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.info-preview-grid {
+    display: block;
+    border: 1px solid;
+}
+.info-preview {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 5px;
+}
+.left-relevant-info {
+    border: 1px solid;
+}
+
