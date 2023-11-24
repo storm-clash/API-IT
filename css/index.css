@@ -76,60 +76,6 @@ h1,h2,h3 {
 }
 
 
-      /* Add your custom styles here */
-
-      /* Example of a media query for smaller screens */
-      @media (max-width: 768px) {
-          /* Adjustments for smaller screens go here */
-
-          /* Example: Make the grid columns stack on top of each other */
-          .grid,
-          .grid-card,
-          .grid-two-layers {
-              width: 100%;
-              grid-template-columns: repeat(1,1fr);
-              
-               /* Make each column full-width on smaller screens */
-          }
-          .grid {
-            margin-top: 20px;
-            
-          }
-          .h1,h2 {
-            text-align: center;
-            
-          }
-          .info-container {
-            margin-left: 0;
-          }
-          
-          
-      }
-
-      @media (max-width: 576px) {
-        .navbar-brand img {
-            max-height: 30px; /* Adjust the logo size for smaller screens */
-        }
-        
-        
-
-        /* Add more specific styles for smaller screens as needed */
-    }
-
-    @media (max-width: 932px) {
-        
-            
-            
-    
-        /* .grid {
-            width: 100%;
-            grid-template-columns: 2fr 1fr;
-            
-        } */
-        .grid-card {
-            width: 100%;
-            place-items: center;
-        }
-    }
+     
 
 
