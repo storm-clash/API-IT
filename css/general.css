@@ -4,7 +4,15 @@ p {
     margin-bottom: 0;
 }
 body {
+    padding: 0;
     margin: 0;
     padding-top: 80px;
     
+}
+.navbar-brand img {
+    max-height: 40px; /* Adjust the maximum height of the brand logo */
+}
+
+footer {
+    width: 100%;
 }
