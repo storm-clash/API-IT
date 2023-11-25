@@ -75,6 +75,17 @@ h1,h2,h3 {
     margin: 0;
 }
 
+/*SIDEBAR*/
+.img-container {
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.logo-icon {
+    max-width: 100%;
+    
+}
+
 
      
 
