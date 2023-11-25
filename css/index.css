@@ -1,6 +1,4 @@
-.nav-item {
-    color: #fff;
-}
+
 
 .grid {
     display: grid;
@@ -81,7 +79,7 @@ h1,h2,h3 {
 
 /*SIDEBAR*/
 .img-container2 {
-    width: 200px;
+    width: 150px;
     text-align: center;
     margin: 0 auto;
 }
