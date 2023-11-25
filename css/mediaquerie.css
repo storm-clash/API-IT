@@ -8,16 +8,32 @@
         .grid,
         .grid-card,
         .grid-two-layers {
-            width: 100%;
+            max-width: 100%;
             grid-template-columns: repeat(1,1fr);
+            
             
              /* Make each column full-width on smaller screens */
         }
+        body {
+          
+          padding: 0;
+          height: 100vh; /* 100% del alto del viewport */
+          width: 100vw; /* 100% del ancho del viewport */
+          
+        }
+        .navbar {
+          max-width:100%;
+          
+        }
         .grid {
-          margin-top: 20px;
+          
+          margin-top: 90px;
           margin-right: 0;
           margin-left: 0;
           
+        }
+        .footer {
+          max-width: 100%;
         }
         .h1,h2 {
           text-align: center;
