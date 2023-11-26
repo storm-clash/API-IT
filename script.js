@@ -41,10 +41,8 @@ const llenarTabla = async () => {
 // Llamar a la función para llenar la tabla cuando la página cargue
 document.addEventListener('DOMContentLoaded', llenarTabla);
 
-//menu
-function toggleMenu(){
-  const menu = document.querySelector(".nav-link");
-  const icon = document.querySelector(".hamburger-icon");
-  menu.classList.toggle("open");
-  icon.classList.toggle("open");
-}
+//sidebar
+ // Hide the custom popover content
+//  function hideCustomPopover() {
+//   document.querySelector('.custom-popover').style.display = 'none';
+// }

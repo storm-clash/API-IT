@@ -77,15 +77,38 @@ h1,h2,h3 {
     margin: 0;
 }
 
-/*SIDEBAR*/
-.img-container2 {
-    width: 150px;
-    text-align: center;
-    margin: 0 auto;
+/*Pop-up divs*/
+
+/* Style for the custom popover */
+.custom-popover {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
-.logo-icon {
-    max-width: 100%;
+
+/* Container for the hover area */
+.hover-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Show the custom popover content on hover */
+.hover-container:hover .custom-popover {
+    display: block;
+}
+
+.pop-up-container {
     
+    width: 300px;
+}
+.pop-up-container img {
+    display: inline-block;
+    margin-left: 20px;
+    max-width: 40%;
 }
 
 
