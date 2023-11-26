@@ -1,5 +1,5 @@
  // Simula la carga de un archivo JSON de manera asíncrona
- const cargarJSON = () => {
+ const cargarJSON = (() => {
   return new Promise((resolve, reject) => {
     // Puedes cambiar la ruta del archivo JSON según tu estructura de carpetas
     fetch('table.json')
@@ -7,7 +7,7 @@
       .then(data => resolve(data))
       .catch(error => reject(error));
   });
-};
+});
 
 // Función para llenar la tabla con los datos del JSON
 const llenarTabla = async () => {
