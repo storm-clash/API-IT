@@ -53,6 +53,7 @@
         display: inline-block;
         margin-left: 5px;
         max-width: 30vw;
+        z-index: 50;
       }
         
         
