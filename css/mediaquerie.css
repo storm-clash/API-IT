@@ -74,3 +74,9 @@
           place-items: center;
       }
   }
+  @media only screen and (max-width: 600px) {
+    .custom-popover {
+        width: 80%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
+        left: 10%; /* Centrar el pop-up en la pantalla */
+    }
+}
