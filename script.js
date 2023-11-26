@@ -39,10 +39,10 @@
 // };
 
 // Llamar a la función para llenar la tabla cuando la página cargue
-document.addEventListener('DOMContentLoaded', llenarTabla);
+// document.addEventListener('DOMContentLoaded', llenarTabla);
 
 //sidebar
  // Hide the custom popover content
-//  function hideCustomPopover() {
-//   document.querySelector('.custom-popover').style.display = 'none';
-// }
+  function hideCustomPopover() {
+   document.querySelector('.custom-popover').style.display = 'none';
+ }
