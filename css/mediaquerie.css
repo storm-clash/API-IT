@@ -85,7 +85,7 @@
   }
   @media only screen and (max-width: 600px) {
     .pop-up-container {
-        width: 80%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
+        width: 90%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
         left: 10%; /* Centrar el pop-up en la pantalla */
     }
 }
