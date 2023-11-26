@@ -45,7 +45,7 @@
         .right-relevant-info {
             padding-right: 0;
         }
-        .custom-popover {
+        .pop-up-container {
           width: 80%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
           left: 10%; /* Centrar el pop-up en la pantalla */
       }
@@ -79,7 +79,7 @@
       }
   }
   @media only screen and (max-width: 600px) {
-    .custom-popover {
+    .pop-up-container {
         width: 80%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
         left: 10%; /* Centrar el pop-up en la pantalla */
     }
