@@ -45,6 +45,10 @@
         .right-relevant-info {
             padding-right: 0;
         }
+        .custom-popover {
+          width: 80%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
+          left: 10%; /* Centrar el pop-up en la pantalla */
+      }
         
         
     }
