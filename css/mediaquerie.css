@@ -47,7 +47,7 @@
         }
         .pop-up-container {
           width: 90%; /* Ajustar el ancho del pop-up en pantallas pequeñas */
-          left: 10%; /* Centrar el pop-up en la pantalla */
+         /* left: 10%; /* Centrar el pop-up en la pantalla */
       }
       .pop-up-container img {
         display: inline-block;
